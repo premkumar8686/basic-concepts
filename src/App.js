@@ -1,7 +1,10 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import ForceUpdate from "./forceupdate/ForceUpdate";
+import PropsProducts from "./props/PropsProducts";
+// import ClassProps from "./props/ClassProps";
+// import PropsData from "./props/PropsData";
+// import ForceUpdate from "./forceupdate/ForceUpdate";
 // import ProductsMap from "./map/ProductsMap";
 // import JsonDataRead from "./jsonfiledatareadandmap/JsonDataRead";
 // import Map from "./map/Map";
@@ -28,7 +31,11 @@ function App() {
      {/* <Image /> */}
      {/* <ProductsMap /> */}
      {/* <JsonDataRead /> */}
-     <ForceUpdate />
+     {/* <ForceUpdate /> */}
+     {/* <PropsData name='Prem' /> */}
+     {/* <PropsData name='kumar' /> */}
+     {/* <ClassProps name='Prem' ok /> */}
+     <PropsProducts />
     </>
   );
 }
