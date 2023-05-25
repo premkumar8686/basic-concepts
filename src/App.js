@@ -1,7 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import ProductsMap from "./map/ProductsMap";
+import ForceUpdate from "./forceupdate/ForceUpdate";
+// import ProductsMap from "./map/ProductsMap";
+// import JsonDataRead from "./jsonfiledatareadandmap/JsonDataRead";
 // import Map from "./map/Map";
 // import Image from "./image/Image";
 // import Expression from "./expression/Expression";
@@ -24,7 +26,9 @@ function App() {
      {/* <ReactIcons /> */}
      {/* <Expression /> */}
      {/* <Image /> */}
-     <ProductsMap />
+     {/* <ProductsMap /> */}
+     {/* <JsonDataRead /> */}
+     <ForceUpdate />
     </>
   );
 }
