@@ -1,7 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import PropsProducts from "./props/PropsProducts";
+import StateHideShow from "./states/StateHideShow";
+// import FunctionState from "./states/FunctionState";
+// import ClassState from "./states/ClassState";
+// import MyPropTypes from "./proptypes/MyPropTypes";
+// import PropsProducts from "./props/PropsProducts";
 // import ClassProps from "./props/ClassProps";
 // import PropsData from "./props/PropsData";
 // import ForceUpdate from "./forceupdate/ForceUpdate";
@@ -35,7 +39,12 @@ function App() {
      {/* <PropsData name='Prem' /> */}
      {/* <PropsData name='kumar' /> */}
      {/* <ClassProps name='Prem' ok /> */}
-     <PropsProducts />
+     {/* <PropsProducts /> */}
+     {/* <MyPropTypes  age={30} cars='tata' /> */}
+     {/* <MyPropTypes name='Prem'>This is from Parent</MyPropTypes> */}
+     {/* <ClassState /> */}
+     {/* <FunctionState /> */}
+     <StateHideShow />
     </>
   );
 }
