@@ -1,7 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import StateHideShow from "./states/StateHideShow";
+import TextCount from "./states/TextCount";
+// import InputHideShow from "./states/InputHideShow";
+// import StateHideShow from "./states/StateHideShow";
 // import FunctionState from "./states/FunctionState";
 // import ClassState from "./states/ClassState";
 // import MyPropTypes from "./proptypes/MyPropTypes";
@@ -44,7 +46,9 @@ function App() {
      {/* <MyPropTypes name='Prem'>This is from Parent</MyPropTypes> */}
      {/* <ClassState /> */}
      {/* <FunctionState /> */}
-     <StateHideShow />
+     {/* <StateHideShow /> */}
+     {/* <InputHideShow /> */}
+     <TextCount />
     </>
   );
 }
