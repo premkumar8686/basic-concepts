@@ -1,7 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import TextCount from "./states/TextCount";
+import Demo2 from "./states/Demo2";
+// import Demo1 from "./states/Demo1";
+// import SetStateDemo2 from "./states/SetStateDemo2";
+// import SetState from "./states/SetState";
+// import TextCount from "./states/TextCount";
 // import InputHideShow from "./states/InputHideShow";
 // import StateHideShow from "./states/StateHideShow";
 // import FunctionState from "./states/FunctionState";
@@ -48,7 +52,11 @@ function App() {
      {/* <FunctionState /> */}
      {/* <StateHideShow /> */}
      {/* <InputHideShow /> */}
-     <TextCount />
+     {/* <TextCount /> */}
+     {/* <SetState /> */}
+     {/* <SetStateDemo2 /> */}
+     {/* <Demo1 /> */}
+     <Demo2 />
     </>
   );
 }
