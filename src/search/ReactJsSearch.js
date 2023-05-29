@@ -23,12 +23,24 @@ export default function ReactJsSearch() {
    const [filteredEmployees, setFilteredEmployees] = useState(initialEmployees);
 
    const onSearchClick = (searchText) => {
-    setFilteredEmployees(employees.filter((emp)=> emp.name.includes(searchText)));
+    setFilteredEmployees(employees.filter((emp)=> JSON.stringify(emp).includes(searchText)));
+    // Here because of JSON.stringify we can search with all col data Even numbers
   };
+
+ const ascending = () => {
+
+  setFilteredEmployees([...filteredEmployees.sort((a,b) => a.name.localeCompare(b.name))]);
+
+ }
+
+ const descending = () => {
+
+  setFilteredEmployees([...filteredEmployees.sort((a,b) => b.name.localeCompare(a.name))]);
+
+ }
 
 
   return <>
-
       <SearchBar
         onSearchTextChange={
           (term, filteredData) => {
@@ -39,6 +51,11 @@ export default function ReactJsSearch() {
         placeHolderText={"Search here..."}
         data={employees}
       />
+
+      <center className="my-5">
+          <button className="btn btn-success me-3" onClick={ascending}>ASC</button>
+          <button className="btn btn-info me-3 text-white" onClick={descending}>DEC</button>
+      </center>
       <hr />
       {
         <table className="table table-bordered">
