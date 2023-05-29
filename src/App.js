@@ -1,7 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Demo2 from "./states/Demo2";
+import ReactJsSearch from "./search/ReactJsSearch";
+// import SweetAlert from "./sweet/SweetAlert";
+// import Demo2 from "./states/Demo2";
 // import Demo1 from "./states/Demo1";
 // import SetStateDemo2 from "./states/SetStateDemo2";
 // import SetState from "./states/SetState";
@@ -56,7 +58,9 @@ function App() {
      {/* <SetState /> */}
      {/* <SetStateDemo2 /> */}
      {/* <Demo1 /> */}
-     <Demo2 />
+     {/* <Demo2 /> */}
+     {/* <SweetAlert /> */}
+     <ReactJsSearch />
     </>
   );
 }
