@@ -1,7 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import ReactJsSearch from "./search/ReactJsSearch";
+import Center from "./crud/Center";
+// import ReactJsSearch from "./search/ReactJsSearch";
 // import SweetAlert from "./sweet/SweetAlert";
 // import Demo2 from "./states/Demo2";
 // import Demo1 from "./states/Demo1";
@@ -60,7 +61,8 @@ function App() {
      {/* <Demo1 /> */}
      {/* <Demo2 /> */}
      {/* <SweetAlert /> */}
-     <ReactJsSearch />
+     {/* <ReactJsSearch /> */}
+     <Center />
     </>
   );
 }

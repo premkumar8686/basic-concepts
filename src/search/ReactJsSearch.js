@@ -30,7 +30,7 @@ export default function ReactJsSearch() {
  const ascending = () => {
 
   setFilteredEmployees([...filteredEmployees.sort((a,b) => a.name.localeCompare(b.name))]);
-
+  // we Use localeCompare because we have text in object, object in array 
  }
 
  const descending = () => {
