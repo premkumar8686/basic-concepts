@@ -1,7 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Center from "./crud/Center";
+import GetSnapshotBeforeUpdate from "./lifecyclemethods/GetSnapshotBeforeUpdate";
+// import ShouldComponentUpdate from "./lifecyclemethods/ShouldComponentUpdate";
+// import ClasslifeCycleMethodsDemo from "./lifecyclemethods/ClasslifeCycleMethodsDemo";
+// import ComponentDidMount from "./lifecyclemethods/ComponentDidMount";
+// import Memo from "./purecomponent/Memo";
+// import FunctionalComponent from "./purecomponent/FunctionalComponent";
+// import ClassPureComponent from "./purecomponent/ClassPureComponent";
+// import Center from "./crud/Center";
 // import ReactJsSearch from "./search/ReactJsSearch";
 // import SweetAlert from "./sweet/SweetAlert";
 // import Demo2 from "./states/Demo2";
@@ -62,7 +69,14 @@ function App() {
      {/* <Demo2 /> */}
      {/* <SweetAlert /> */}
      {/* <ReactJsSearch /> */}
-     <Center />
+     {/* <Center /> */}
+     {/* <ClassPureComponent /> */}
+     {/* <FunctionalComponent /> */}
+     {/* <Memo /> */}
+     {/* <ClasslifeCycleMethodsDemo myName='Kumar'/> */}
+     {/* <ComponentDidMount /> */}
+     {/* <ShouldComponentUpdate /> */}
+     <GetSnapshotBeforeUpdate />
     </>
   );
 }
