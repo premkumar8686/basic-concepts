@@ -1,7 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import GetSnapshotBeforeUpdate from "./lifecyclemethods/GetSnapshotBeforeUpdate";
+import UnMounting from "./lifecyclemethods/UnMounting";
+// import GetSnapshotBeforeUpdate from "./lifecyclemethods/GetSnapshotBeforeUpdate";
 // import ShouldComponentUpdate from "./lifecyclemethods/ShouldComponentUpdate";
 // import ClasslifeCycleMethodsDemo from "./lifecyclemethods/ClasslifeCycleMethodsDemo";
 // import ComponentDidMount from "./lifecyclemethods/ComponentDidMount";
@@ -76,7 +77,8 @@ function App() {
      {/* <ClasslifeCycleMethodsDemo myName='Kumar'/> */}
      {/* <ComponentDidMount /> */}
      {/* <ShouldComponentUpdate /> */}
-     <GetSnapshotBeforeUpdate />
+     {/* <GetSnapshotBeforeUpdate /> */}
+     <UnMounting />
     </>
   );
 }
