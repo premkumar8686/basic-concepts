@@ -1,7 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import UnMounting from "./lifecyclemethods/UnMounting";
+import DynamicForm from "./forms/DynamicForm";
+// import FormValidation from "./forms/FormValidation";
+// import FormWithCallBackRef from "./hooks/FormWithCallBackRef";
+// import FormWithRef from "./hooks/FormWithRef";
+// import UseRef2 from "./hooks/UseRef2";
+// import UseRef from "./hooks/UseRef";
+// import UseEffect from "./lifecyclemethods/functionlifecyclemethods/UseEffect";
+// import UnMounting from "./lifecyclemethods/UnMounting";
 // import GetSnapshotBeforeUpdate from "./lifecyclemethods/GetSnapshotBeforeUpdate";
 // import ShouldComponentUpdate from "./lifecyclemethods/ShouldComponentUpdate";
 // import ClasslifeCycleMethodsDemo from "./lifecyclemethods/ClasslifeCycleMethodsDemo";
@@ -78,7 +85,14 @@ function App() {
      {/* <ComponentDidMount /> */}
      {/* <ShouldComponentUpdate /> */}
      {/* <GetSnapshotBeforeUpdate /> */}
-     <UnMounting />
+     {/* <UnMounting /> */}
+     {/* <UseEffect /> */}
+     {/* <UseRef /> */}
+     {/* <UseRef2 /> */}
+     {/* <FormWithRef /> */}
+     {/* <FormWithCallBackRef /> */}
+     {/* <FormValidation /> */}
+     <DynamicForm />
     </>
   );
 }
