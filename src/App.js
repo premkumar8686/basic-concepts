@@ -1,7 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import DynamicForm from "./forms/DynamicForm";
+import AxiosInstance from "./https/axios/AxiosInstance";
+// import AxiosAwaitFetch from "./https/axios/AxiosAwaitFetch";
+// import AxiosFetch from "./https/axios/AxiosFetch";
+// import AsyncAwait from "./https/AsyncAwait";
+// import MethodFetch2 from "./https/MethodFetch2";
+// import MethodFetch from "./https/MethodFetch";
+// import FetchData from "./https/FetchData";
+// import DynamicForm from "./forms/DynamicForm";
 // import FormValidation from "./forms/FormValidation";
 // import FormWithCallBackRef from "./hooks/FormWithCallBackRef";
 // import FormWithRef from "./hooks/FormWithRef";
@@ -40,7 +47,6 @@ import DynamicForm from "./forms/DynamicForm";
 // import Expression from "./expression/Expression";
 // import BootstrapIcons from "./bootstrapicons/BootstrapIcons";
 // import ReactIcons from "./reacticons/ReactIcons";
-
 // import Menu from "./components/bootstrap/Menu";
 // import Css from "./components/css/Css";
 
@@ -92,7 +98,14 @@ function App() {
      {/* <FormWithRef /> */}
      {/* <FormWithCallBackRef /> */}
      {/* <FormValidation /> */}
-     <DynamicForm />
+     {/* <DynamicForm /> */}
+     {/* <FetchData /> */}
+     {/* <MethodFetch /> */}
+     {/* <MethodFetch2 /> */}
+     {/* <AsyncAwait /> */}
+     {/* <AxiosFetch /> */}
+     {/* <AxiosAwaitFetch /> */}
+     <AxiosInstance />
     </>
   );
 }
