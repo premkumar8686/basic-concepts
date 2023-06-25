@@ -1,9 +1,17 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import AxiosInstance from "./https/axios/AxiosInstance";
+import Home from "./routing/Home";
+import { Route, Routes } from "react-router-dom";
+import AboutUs from "./routing/AboutUs";
+import Services from "./routing/Services";
+import NotThere from "./routing/NotThere";
+// import MultipleUrlGet from "./https/axios/MultipleUrlGet";
+// import { MyInterceptor1 } from "./https/interceptor/MyInterceptor1";
+// import AxiosInstance from "./https/axios/AxiosInstance";
 // import AxiosAwaitFetch from "./https/axios/AxiosAwaitFetch";
 // import AxiosFetch from "./https/axios/AxiosFetch";
+// import { MyInterceptor2 } from "./https/interceptor/MyInterceptor2";
 // import AsyncAwait from "./https/AsyncAwait";
 // import MethodFetch2 from "./https/MethodFetch2";
 // import MethodFetch from "./https/MethodFetch";
@@ -54,6 +62,8 @@ import AxiosInstance from "./https/axios/AxiosInstance";
 
 
 function App() {
+  // MyInterceptor1();
+  // MyInterceptor2();
   return (
     <>
     {/* <Map /> */}
@@ -105,7 +115,15 @@ function App() {
      {/* <AsyncAwait /> */}
      {/* <AxiosFetch /> */}
      {/* <AxiosAwaitFetch /> */}
-     <AxiosInstance />
+     {/* <AxiosInstance /> */}
+     {/* <MultipleUrlGet /> */}
+     <Routes>
+       <Route exact path='/' element={<Home />} />
+       <Route exact path='about-us' element={<AboutUs />} />
+       <Route exact path='services' element={<Services />} />
+       <Route path='*' element={<NotThere />} />
+     </Routes>
+    
     </>
   );
 }
